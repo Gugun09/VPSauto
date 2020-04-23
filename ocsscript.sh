@@ -99,7 +99,7 @@ service nginx restart
 apt-get -y install git
 cd /home/vps/public_html
 git init
-git remote add origin https://github.com/wangzki03/ocs.git
+git remote add origin https://github.com/Gugun09/ocs.git
 git pull origin master
 chmod 777 /home/vps/public_html/config
 chmod 777 /home/vps/public_html/config/config.ini

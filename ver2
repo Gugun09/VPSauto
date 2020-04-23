@@ -144,5 +144,5 @@ sed -i 's/listen = \/var\/run\/php5-fpm.sock/listen = 127.0.0.1:9000/g' /etc/php
 service php5-fpm restart
 
 cd /home/vps/public_html
-wget https://raw.githubusercontent.com/wangzki03/VPSauto/master/index.php
+wget https://raw.githubusercontent.com/Gugun09/VPSauto/master/index.php
 service nginx restart
