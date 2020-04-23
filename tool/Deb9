@@ -72,7 +72,7 @@ refresh_pattern ^ftp: 1440 20% 10080
 refresh_pattern ^gopher: 1440 0% 1440
 refresh_pattern -i (/cgi-bin/|\?) 0 0% 0
 refresh_pattern . 0 20% 4320
-visible_hostname Wangzki
+visible_hostname Gugun
 END
 sed -i $MYIP2 /etc/squid/squid.conf;
 
@@ -408,7 +408,7 @@ echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-in
 echo ""  | tee -a log-install.txt
 echo "   - Webmin                  : http://$MYIP:10000/"  | tee -a log-install.txt
 echo ""
-echo "------------------------------ Modified by Wangzki -----------------------------"
+echo "------------------------------ Modified by Gugun -----------------------------"
 echo "-----Rebooting your VPS -----"
 sleep 5
 reboot

@@ -172,7 +172,7 @@ clear
 echo "=======================================================" | tee -a log-install.txt
 echo "Please login Reseller Panel at http://$MYIP" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "Auto Script Installer OCS Panels EZ VPN Mod by Wangzki"  | tee -a log-install.txt
+echo "Auto Script Installer OCS Panels EZ VPN Mod by Gugun"  | tee -a log-install.txt
 
 echo "" | tee -a log-install.txt
 echo "Thanks " | tee -a log-install.txt

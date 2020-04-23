@@ -2,7 +2,7 @@
 #!/bin/bash
 #
 # Original script by fornesia, rzengineer and fawzya 
-# Mod by Wangzki
+# Mod by Gugun
 # 
 # ==================================================
 
@@ -57,7 +57,7 @@ apt-get -y install nginx
 apt-get -y install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
 
 echo 'echo -e "welcome to the server $HOSTNAME" | lolcat' >> .bashrc
-echo 'echo -e "Script mod by Wangzki"' >> .bashrc
+echo 'echo -e "Script mod by Gugun"' >> .bashrc
 echo 'echo -e "Type menu to display a list of commands"' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 
@@ -67,7 +67,7 @@ rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/wangzki03/VPSauto/master/nginx.conf"
 mkdir -p /home/vps/public_html
-echo "<pre>Setup by Wangzki</pre>" > /home/vps/public_html/index.html
+echo "<pre>Setup by Gugun</pre>" > /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/wangzki03/VPSauto/master/vps.conf"
 service nginx restart
 
@@ -265,7 +265,7 @@ echo "Timezone : Asia/Manila (GMT +7)"  | tee -a log-install.txt
 echo "IPv6     : [off]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Original Script by Fornesia, Rzengineer & Fawzya"  | tee -a log-install.txt
-echo "Modified by Wangzki"  | tee -a log-install.txt
+echo "Modified by Gugun"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
