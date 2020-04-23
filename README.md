@@ -11,8 +11,10 @@ Webmin : ip:10000<br>
 DDOS Deflate<br>
 Fail2Ban<br><br>
 <b>Run this command</b><br><br>
-<b>SSHVPN SCRIPT</b><br>
+<b>SSHVPN SCRIPT 7</b><br>
 wget https://raw.githubusercontent.com/wangzki03/VPSauto/master/deb7script.sh && chmod +x deb7script.sh && ./deb7script.sh<br><br>
+<b>SSHVPN SCRIPT 8</b><br>
+wget https://raw.githubusercontent.com/wangzki03/VPSauto/master/debian8.sh && chmod +x debian8.sh && ./debian8.sh<br><br>
 <b>OCS PANEL SCRIPT</b><br>
 wget https://raw.githubusercontent.com/wangzki03/VPSauto/master/ocsscript.sh && chmod +x ocsscript.sh && ./ocsscript.sh<br>
 <b>OCS PANEL mod EZ Connect SCRIPT</b><br>
